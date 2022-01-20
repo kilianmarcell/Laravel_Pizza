@@ -1,0 +1,15 @@
+laravel app létrehozása -> composer create-project laravel/laravel fajlnev
+cd fajlnev
+új tábla létrehozásához -> php artisan make:model -m tablanev	(-m miatt a migration-t is létrehozza)
+táblák feltöltése adatbázisba -> php arisan migrate
+táblák újratöltése (törlés és futtatás) -> php artisan migrate:fresh
+táblákat példa adatokkal feltölteni -> php artisan db:seed
+weboldalon megjeleníteni -> php artisan serve
+
+
+
+
+saját factory létrehozása -> php artisan make:factory -m tablanev tablanevFactory
+
+
+.env mappában adatbázis adatai
